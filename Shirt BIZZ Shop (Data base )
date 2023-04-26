@@ -1,0 +1,13 @@
+CREATE TABLE shirts (id integer Primary Key, Color TEXT, Size Text, Quanity Integer , Price Integer);
+
+INSERT INTO Shirts Values (1, "RED", "M" ,10,3);
+INSERT INTO Shirts Values (2, "BLUE" , "S", 10 ,5 );
+INSERT INTO Shirts Values (3, "Green", "S", 10, 5); 
+INSERT INTO Shirts Values (4, "PINK" , " M" , 10,3 );
+INSERT INTO Shirts Values (5, "BROWN" , "L", 10,2);
+SELECT * FROM shirts ORDER BY Price;
+SELECT * FROM shirts ORDER BY Size ;
+Check out my Shirt Business  database here. Notice how I've described each piece of code 
+(first I created a store database, then displayed the database ordered by price, Size, quanity and COLOR.)
+
+
